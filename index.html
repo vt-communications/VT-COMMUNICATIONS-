@@ -48,6 +48,9 @@
     .contact h2 { font-size:34px; margin:0 0 8px }
     .contact p { margin:0; color:#d2e2d6; line-height:1.65 }
     .contact .button { background:var(--lime); color:var(--ink); white-space:nowrap }
+    .contact-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap }
+    .contact .button.whatsapp { background:transparent; color:#fff; border:1px solid #a7c5ad }
+    .contact .contact-number { margin-top:12px; font-weight:650; color:#fff }
     footer { border-top:1px solid var(--line); padding:24px 0 35px; display:flex; justify-content:space-between; color:var(--muted); font-size:13px }
     @media(max-width:760px) { nav a:not(.button) { display:none } .hero { grid-template-columns:1fr; gap:38px; padding:55px 0 } .visual { min-height:330px } .orb { width:205px;height:205px } .orb span { font-size:85px } .cards { grid-template-columns:1fr } .section-head { display:block } .section-head p { margin-top:16px } .contact { display:block; padding:30px 25px } .contact .button { margin-top:22px } footer { gap:14px; flex-direction:column } }
   </style>
@@ -79,7 +82,7 @@
           <article class="card"><span class="num">சேவை 03</span><h3>ஆவண &amp; டிஜிட்டல் சேவைகள்</h3><p>பிரிண்ட், ஸ்கேன், ஆவணத் தயாரிப்பு மற்றும் இணையத்தில் தேவையான பணிகளுக்கான உதவி.</p></article>
         </div>
       </section>
-      <section class="contact" id="contact"><div><h2>உங்களுக்கு என்ன சேவை தேவை?</h2><p>சேவை கிடைப்பது, தேவையான ஆவணங்கள் மற்றும் அடுத்த படிகள் குறித்து எங்கள் மையத்தில் கேட்டறியுங்கள்.</p></div><a class="button" href="#services">சேவைகளைப் பார்க்க ↗</a></section>
+      <section class="contact" id="contact"><div><h2>உங்களுக்கு என்ன சேவை தேவை?</h2><p>சேவை கிடைப்பது, தேவையான ஆவணங்கள் மற்றும் அடுத்த படிகள் குறித்து எங்களைத் தொடர்புகொள்ளுங்கள்.</p><p class="contact-number">தொடர்பு: <a href="tel:7708728087">7708728087</a></p></div><div class="contact-actions"><a class="button" href="tel:7708728087">அழைக்கவும் ↗</a><a class="button whatsapp" href="https://wa.me/917708728087" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div></section>
     </main>
     <footer><a class="brand" href="#top"><span class="brandmark">VT</span><span>VT COMMUNICATIONS</span></a><span>© <span id="year"></span> VT COMMUNICATIONS. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</span></footer>
   </div>
